@@ -253,7 +253,7 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
 }
 </script>
     <h1>report.html</h1>
-    <p>Report generated on 24-Mar-2023 at 16:24:52 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v3.2.0</p>
+    <p>Report generated on 02-Apr-2023 at 09:00:49 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v3.2.0</p>
     <h2>Environment</h2>
     <table id="environment">
       <tr>
@@ -269,7 +269,7 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
         <td>Python</td>
         <td>3.9.0</td></tr></table>
     <h2>Summary</h2>
-    <p>2 tests ran in 61.80 seconds. </p>
+    <p>2 tests ran in 60.60 seconds. </p>
     <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="passed">1 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="failed">1 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
     <h2>Results</h2>
     <table id="results-table">
@@ -285,12 +285,12 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
         <tr>
           <td class="col-result">Failed</td>
           <td class="col-name">test_elements.py::TestElements::test_verify_title</td>
-          <td class="col-duration">17.84</td>
+          <td class="col-duration">16.12</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
             <div class="image"><a class="image" href="assets/test_elements.py__TestElements__test_verify_title_0_0.png" target="_blank"><img src="assets/test_elements.py__TestElements__test_verify_title_0_0.png"/></a></div>
-            <div class="log">self = &lt;tests.test_elements.TestElements object at 0x04E33DD8&gt;<br/><br/>    def test_verify_title(self):<br/>        lp = LandingPage(self.driver)<br/>        self.log_info.info(&quot;Navigated to website&quot;)<br/>        self.log_info.info(&quot;Verifying landing page title&quot;)<br/>        print(self.test_data[&quot;title&quot;])<br/>&gt;       assert lp.verify_landing_page() != self.test_data[&quot;title&quot;]<br/><span class="error">E       AssertionError: assert &#x27;DEMOQA&#x27; != &#x27;DEMOQA&#x27;</span><br/><span class="error">E        +  where &#x27;DEMOQA&#x27; = &lt;bound method LandingPage.verify_landing_page of &lt;pages.landing_page.LandingPage object at 0x04E5A658&gt;&gt;()</span><br/><span class="error">E        +    where &lt;bound method LandingPage.verify_landing_page of &lt;pages.landing_page.LandingPage object at 0x04E5A658&gt;&gt; = &lt;pages.landing_page.LandingPage object at 0x04E5A658&gt;.verify_landing_page</span><br/><br/>test_elements.py:18: AssertionError<br/> -------------------------------Captured log setup------------------------------- <br/>INFO     WDM:logger.py:11 ====== WebDriver manager ======
+            <div class="log">self = &lt;tests.test_elements.TestElements object at 0x0495C1A8&gt;<br/><br/>    def test_verify_title(self):<br/>        lp = LandingPage(self.driver)<br/>        self.log_info.info(&quot;Navigated to website&quot;)<br/>        self.log_info.info(&quot;Verifying landing page title&quot;)<br/>        print(self.test_data[&quot;title&quot;])<br/>&gt;       assert lp.verify_landing_page() != self.test_data[&quot;title&quot;]<br/><span class="error">E       AssertionError: assert &#x27;DEMOQA&#x27; != &#x27;DEMOQA&#x27;</span><br/><span class="error">E        +  where &#x27;DEMOQA&#x27; = &lt;bound method LandingPage.verify_landing_page of &lt;pages.landing_page.LandingPage object at 0x0495CDA8&gt;&gt;()</span><br/><span class="error">E        +    where &lt;bound method LandingPage.verify_landing_page of &lt;pages.landing_page.LandingPage object at 0x0495CDA8&gt;&gt; = &lt;pages.landing_page.LandingPage object at 0x0495CDA8&gt;.verify_landing_page</span><br/><br/>test_elements.py:18: AssertionError<br/> -------------------------------Captured log setup------------------------------- <br/>INFO     WDM:logger.py:11 ====== WebDriver manager ======
 INFO     WDM:logger.py:11 Get LATEST chromedriver version for google-chrome 111.0.5563
 INFO     WDM:logger.py:11 Driver [C:\Users\U6069615\.wdm\drivers\chromedriver\win32\111.0.5563\chromedriver.exe] found in cache<br/> ------------------------------Captured stdout call------------------------------ <br/>DEMOQA
 <br/> -------------------------------Captured log call-------------------------------- <br/>INFO     root:test_elements.py:15 Navigated to website
@@ -299,7 +299,7 @@ INFO     root:test_elements.py:16 Verifying landing page title<br/></div></td></
         <tr>
           <td class="col-result">Passed</td>
           <td class="col-name">test_elements.py::TestElements::test_verify_elements_page</td>
-          <td class="col-duration">43.43</td>
+          <td class="col-duration">43.87</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
