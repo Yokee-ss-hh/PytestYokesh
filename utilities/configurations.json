@@ -1,0 +1,13 @@
+{
+  "environments":
+  {
+  "qa1": "https://qa1.ui.dev-innovation.com/login/",
+  "qa2": "https://qa2.ui.dev-innovation.com/login/",
+  "qa3": "https://qa3.ui.dev-innovation.com/login/",
+  "qa4": "https://qa4.ui.dev-innovation.com/login/",
+  "qa5": "https://qa5.ui.dev-innovation.com/login/",
+  "automation": "https://automation.ui.dev-innovation.com/login/"
+}
+}
+
+

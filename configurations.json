@@ -1,0 +1,11 @@
+{
+  "environments":
+  {
+  "qa1": "https://demoqa.com/",
+  "qa2": "#",
+  "qa3": "#",
+  "qa4": "#",
+  "qa5": "#",
+  "automation": "#"
+}
+}
